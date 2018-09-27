@@ -54,7 +54,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="artisteEtTitre" destination="fo7-5D-u6r" id="jGD-bV-cd0"/>
-                                            <outlet property="minature" destination="Ly2-4F-4Z1" id="ucs-se-Up7"/>
+                                            <outlet property="miniature" destination="uYS-ty-aKv" id="hph-ZD-RUl"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

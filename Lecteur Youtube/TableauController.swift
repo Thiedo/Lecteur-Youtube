@@ -8,19 +8,20 @@
 
 import UIKit
 
+
 class TableauController: UIViewController, UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
     var chansons = [Chanson]()
     let identifiantCell = "ChansonCell"
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
      tableView.delegate = self
      tableView.dataSource = self
-        
+        title = "Mes vidéos préférées"
         ajouterChanson()
         
     }
@@ -41,7 +42,7 @@ class TableauController: UIViewController, UITableViewDelegate,UITableViewDataSo
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 170
+        return 130
     }
     
     
@@ -68,4 +69,6 @@ class TableauController: UIViewController, UITableViewDelegate,UITableViewDataSo
         chansons.append(gloria)
         tableView.reloadData()
     }
+    
+    
 }

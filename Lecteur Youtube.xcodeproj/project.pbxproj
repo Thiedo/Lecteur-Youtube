@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8065058A215D845000041E01 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80650589215D845000041E01 /* VideoController.swift */; };
 		8085F72F21487A80004017D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8085F72E21487A80004017D2 /* AppDelegate.swift */; };
 		8085F73421487A80004017D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8085F73221487A80004017D2 /* Main.storyboard */; };
 		8085F73621487A9B004017D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8085F73521487A9B004017D2 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80650589215D845000041E01 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		8085F72B21487A80004017D2 /* Lecteur Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecteur Youtube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8085F72E21487A80004017D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8085F73321487A80004017D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				8085F740214F14E3004017D2 /* TableauController.swift */,
 				8085F742214F16C2004017D2 /* Chanson.swift */,
 				8085F744214F24BA004017D2 /* ChansonCell.swift */,
+				80650589215D845000041E01 /* VideoController.swift */,
 			);
 			path = "Lecteur Youtube";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8065058A215D845000041E01 /* VideoController.swift in Sources */,
 				8085F741214F14E3004017D2 /* TableauController.swift in Sources */,
 				8085F72F21487A80004017D2 /* AppDelegate.swift in Sources */,
 				8085F745214F24BA004017D2 /* ChansonCell.swift in Sources */,

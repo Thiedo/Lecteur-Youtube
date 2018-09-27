@@ -16,14 +16,11 @@ class ChansonCell: UITableViewCell {
     
     var chanson : Chanson! // on force cete variabe a etre non optional
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    
-    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
